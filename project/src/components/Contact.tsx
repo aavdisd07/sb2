@@ -32,7 +32,7 @@ ${formData.message}
   };
 
   return (
-    <section id="contact" className="py-24 bg-slate-900">
+    <section id="contact" className="py-24 bg-[#0C203B]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm rounded-full px-4 py-2 border border-amber-500/30 mb-6">

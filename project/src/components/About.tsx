@@ -3,7 +3,7 @@ import { Globe, Shield, Users, Award, TrendingUp, CheckCircle } from 'lucide-rea
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-slate-800">
+    <section id="about" className="py-24 bg-[#0C203B]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
