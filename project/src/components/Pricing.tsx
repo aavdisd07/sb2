@@ -2,16 +2,63 @@ import React from 'react';
 import { Check, Star, ArrowRight, Zap } from 'lucide-react';
 
 const Pricing = () => {
+  // const plans = [
+  //   {
+  //     name: 'Starter',
+  //     price: '£49',
+  //     period: '/month',
+  //     description: 'Perfect for small businesses just getting started',
+  //     features: [
+  //       'Bookkeeping for up to 50 transactions/month',
+  //       'Monthly reports',
+  //       'Email support'
+  //     ],
+  //     gradient: 'from-slate-600 to-slate-700',
+  //     borderColor: 'border-slate-600',
+  //     buttonStyle: 'bg-slate-700 hover:bg-slate-600 text-white'
+  //   },
+  //   {
+  //     name: 'Standard',
+  //     price: '£99',
+  //     period: '/month',
+  //     description: 'Most popular choice for growing businesses',
+  //     features: [
+  //       'Bookkeeping + VAT + Payroll (up to 5 employees)',
+  //       'Monthly consultation',
+  //       'HMRC correspondence'
+  //     ],
+  //     gradient: 'from-amber-600 to-orange-500',
+  //     borderColor: 'border-amber-500',
+  //     buttonStyle: 'bg-gradient-to-r from-amber-600 to-orange-500 hover:from-amber-700 hover:to-orange-600 text-white',
+  //     popular: true
+  //   },
+  //   {
+  //     name: 'Premium',
+  //     price: '£149',
+  //     period: '/month',
+  //     description: 'Comprehensive solution for established businesses',
+  //     features: [
+  //       'All of Standard',
+  //       'Corporation Tax Return',
+  //       'Self-assessments for 2 directors',
+  //       'Priority support'
+  //     ],
+  //     gradient: 'from-orange-600 to-red-500',
+  //     borderColor: 'border-orange-500',
+  //     buttonStyle: 'bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-700 hover:to-red-600 text-white'
+  //   }
+  // ];
+
   const plans = [
     {
-      name: 'Starter',
-      price: '£49',
+      name: 'Starters',
+      price: '£250',
       period: '/month',
-      description: 'Perfect for small businesses just getting started',
+      description: 'Ideal for businesses starting out with basic needs',
       features: [
-        'Bookkeeping for up to 50 transactions/month',
-        'Monthly reports',
-        'Email support'
+        'Monthly reports and accounts management',
+        'Tax management',
+        'Email support 24/7'
       ],
       gradient: 'from-slate-600 to-slate-700',
       borderColor: 'border-slate-600',
@@ -19,13 +66,16 @@ const Pricing = () => {
     },
     {
       name: 'Standard',
-      price: '£99',
+      price: '£320',
       period: '/month',
-      description: 'Most popular choice for growing businesses',
+      description: 'Perfect for growing businesses needing personalized service',
       features: [
-        'Bookkeeping + VAT + Payroll (up to 5 employees)',
+        'Monthly reports and accounts management',
+        'Personal accountant',
+        'Tax management',
         'Monthly consultation',
-        'HMRC correspondence'
+        'Email and WhatsApp support 24/7',
+        'Payroll management'
       ],
       gradient: 'from-amber-600 to-orange-500',
       borderColor: 'border-amber-500',
@@ -34,21 +84,23 @@ const Pricing = () => {
     },
     {
       name: 'Premium',
-      price: '£149',
+      price: '£390',
       period: '/month',
-      description: 'Comprehensive solution for established businesses',
+      description: 'Best for established businesses with complex needs',
       features: [
-        'All of Standard',
-        'Corporation Tax Return',
-        'Self-assessments for 2 directors',
-        'Priority support'
+        'For established businesses',
+        'Personal accountant',
+        'Invoicing clients',
+        'Monthly reports and consultation',
+        'Tax management',
+        'Payroll management',
+        'Email and WhatsApp support 24/7'
       ],
       gradient: 'from-orange-600 to-red-500',
       borderColor: 'border-orange-500',
       buttonStyle: 'bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-700 hover:to-red-600 text-white'
     }
   ];
-
   return (
     <section id="pricing" className="py-24 bg-slate-800">
       <div className="max-w-7xl mx-auto px-6">

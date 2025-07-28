@@ -27,11 +27,11 @@ function App() {
               <Process />
               <WhyChooseUs />
               <Pricing />
-              <div className="py-24 bg-slate-800">
+              {/* <div className="py-24 bg-slate-800">
                 <div className="max-w-4xl mx-auto px-6">
                   <CostCalculator />
                 </div>
-              </div>
+              </div> */}
               <Contact />
               <FAQ />
               <Testimonials />

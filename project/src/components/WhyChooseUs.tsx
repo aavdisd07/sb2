@@ -95,9 +95,9 @@ const WhyChooseUs = () => {
             </div>
             <div>
               <img 
-                src="https://finsmartaccounting.com/usa/wp-content/uploads/sites/13/2023/06/Untitled-design.jpg"
+                src="./cs.png"
                 alt="Client satisfaction"
-                className="w-full h-48 object-cover rounded-xl mb-4 border border-amber-500/20"
+                className="w-full h-48 object-center rounded-xl mb-4 border border-amber-500/20"
               />
               <h4 className="text-lg font-semibold text-white mb-2">Client Satisfaction</h4>
               <p className="text-slate-400">98% client retention rate and 5-star reviews</p>
