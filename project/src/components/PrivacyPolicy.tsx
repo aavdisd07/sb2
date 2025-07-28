@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, FileText, Phone, Mail, ArrowLeft } from 'lucide-react';
 
 const PrivacyPolicy = () => {
@@ -9,29 +8,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-slate-900">
       {/* Header */}
-      <div className="py-6 px-6" style={{ backgroundColor: '#0C203B' }}>
-        <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <img 
-                src="/Logo.jpg" 
-                alt="StraightBooks Logo" 
-                className="h-10 w-auto rounded-lg shadow-lg"
-              />
-              <span className="text-xl font-bold bg-gradient-to-r from-amber-400 to-orange-300 bg-clip-text text-transparent">
-                StraightBooks
-              </span>
-            </div>
-            <a 
-              href="/"
-              className="inline-flex items-center px-4 py-2 bg-slate-800/50 backdrop-blur-sm text-white rounded-lg font-medium hover:bg-slate-700/50 transition-all duration-300 border border-amber-500/30 hover:border-amber-500/50"
-            >
-              <ArrowLeft className="h-4 w-4 mr-2" />
-              Back to Home
-            </a>
-          </div>
-        </div>
-      </div>
+     
 
       {/* Content */}
       <div className="py-16 px-6">
