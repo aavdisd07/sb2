@@ -23,6 +23,7 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center space-x-8">
         <Link to="/" className="text-slate-300 hover:text-amber-400 transition-colors font-medium">Home</Link>
+        <Link to="/about" className="text-slate-300 hover:text-amber-400 transition-colors font-medium">About Us</Link>
           <Link to="/services" className="text-slate-300 hover:text-amber-400 transition-colors font-medium">Services</Link>
           <Link to="/pricing" className="text-slate-300 hover:text-amber-400 transition-colors font-medium">Pricing</Link>
           <Link to="/contact" className="text-slate-300 hover:text-amber-400 transition-colors font-medium">Contact</Link>
@@ -52,6 +53,7 @@ const Navbar = () => {
         <div className="lg:hidden absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-lg border-t border-amber-500/20">
           <div className="px-6 py-6 space-y-4">
             <Link to="/" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Home</Link>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">About Us</Link>
             <Link to="/services" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Services</Link>
             <Link to="/pricing" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Pricing</Link>
             <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Contact</Link>

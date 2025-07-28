@@ -1,15 +1,9 @@
-import React, { useState } from 'react';
-import { Calculator, Phone, Mail, Menu, X, ArrowRight, Star } from 'lucide-react';
+import { Calculator, Phone, Mail, ArrowRight, Star } from 'lucide-react';
 
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const scrollToSection = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
-    setIsMenuOpen(false);
-  };
 
   return (
     <section className="relative min-h-screen text-white overflow-hidden" style={{ backgroundColor: '#0C203B' }}>

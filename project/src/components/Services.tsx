@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen, FileText, Calculator, Users, Building, CreditCard, Zap } from 'lucide-react';
 
 const Services = () => {

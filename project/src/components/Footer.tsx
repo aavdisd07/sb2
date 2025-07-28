@@ -1,5 +1,5 @@
-import React from 'react';
-import { Calculator, Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
+
+import { Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {

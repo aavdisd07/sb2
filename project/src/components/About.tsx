@@ -1,4 +1,3 @@
-import React from 'react';
 import { Globe, Shield, Users, Award, TrendingUp, CheckCircle } from 'lucide-react';
 
 const About = () => {
