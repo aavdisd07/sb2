@@ -120,8 +120,8 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Contact Info Strip */}
-      {/* <div className="absolute bottom-0 left-0 right-0 bg-slate-800/50 backdrop-blur-sm border-t border-amber-500/20" style={{ backgroundColor: 'rgba(12, 32, 59, 0.8)' }}>
+      
+       <div className="absolute bottom-0 left-0 right-0 bg-slate-800/50 backdrop-blur-sm border-t border-amber-500/20" style={{ backgroundColor: 'rgba(12, 32, 59, 0.8)' }}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8">
           <a href="mailto:Contact@straightbooks.co.uk" className="flex items-center space-x-2 text-slate-300 hover:text-amber-400 transition-colors">
             <Mail className="h-4 w-4" />
@@ -132,7 +132,7 @@ const Hero = () => {
             <span>+44 7398 147870</span>
           </a>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
