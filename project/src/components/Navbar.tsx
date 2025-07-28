@@ -51,7 +51,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-lg border-t border-amber-500/20">
           <div className="px-6 py-6 space-y-4">
-            <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">About</Link>
+            <Link to="/" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Home</Link>
             <Link to="/services" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Services</Link>
             <Link to="/pricing" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Pricing</Link>
             <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-slate-300 hover:text-amber-400 font-medium">Contact</Link>
