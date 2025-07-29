@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
 
             <div>
               <img 
-                src="./cs.png"
+                src="https://media.licdn.com/dms/image/v2/D4D12AQHilV91EbxONQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1705430804455?e=2147483647&v=beta&t=tkSHtqTFAkNr54NVdH3bhOS7s1U7GE9EZmRDlaByeww"
                 alt="Client satisfaction"
                 className="w-full h-48 object-cover rounded-xl mb-4 border border-amber-500/20"
               />
