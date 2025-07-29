@@ -52,27 +52,27 @@ const Footer = () => {
   <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
   <ul className="space-y-3">
     <li>
-      <Link to="/about" className="text-slate-400 hover:text-amber-400 transition-colors">
+      <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
         About Us
       </Link>
     </li>
     <li>
-      <Link to="/" className="text-slate-400 hover:text-amber-400 transition-colors">
+      <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
         Services
       </Link>
     </li>
     <li>
-      <Link to="/pricing" className="text-slate-400 hover:text-amber-400 transition-colors">
+      <Link to="/pricing" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
         Pricing
       </Link>
     </li>
     <li>
-      <Link to="/contact" className="text-slate-400 hover:text-amber-400 transition-colors">
+      <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
         Contact
       </Link>
     </li>
     <li>
-      <Link to="/privacy-policy" className="text-slate-400 hover:text-amber-400 transition-colors">
+      <Link to="/privacy-policy" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
         Privacy Policy
       </Link>
     </li>
