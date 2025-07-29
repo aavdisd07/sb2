@@ -51,22 +51,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <button onClick={() => scrollToSection('about')} className="text-slate-400 hover:text-amber-400 transition-colors">
+                <button onClick={() => window.location.href = '/about'}className="text-slate-400 hover:text-amber-400 transition-colors">
                   About Us
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('services')} className="text-slate-400 hover:text-amber-400 transition-colors">
+                <button onClick={() => window.location.href = '/'} className="text-slate-400 hover:text-amber-400 transition-colors">
                   Services
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('pricing')} className="text-slate-400 hover:text-amber-400 transition-colors">
+                <button onClick={() => window.location.href ='/pricing'} className="text-slate-400 hover:text-amber-400 transition-colors">
                   Pricing
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('contact')} className="text-slate-400 hover:text-amber-400 transition-colors">
+                <button onClick={() => window.location.href = '/contact'} className="text-slate-400 hover:text-amber-400 transition-colors">
                   Contact
                 </button>
               </li>
