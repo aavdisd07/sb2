@@ -1,9 +1,6 @@
-import { Shield, FileText, Phone, Mail, ArrowLeft } from 'lucide-react';
+import { Shield, FileText, Phone, Mail } from 'lucide-react';
 
 const PrivacyPolicy = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <div className="min-h-screen bg-slate-900">
