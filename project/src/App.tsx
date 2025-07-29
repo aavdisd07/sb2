@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Layout from './Layout';
 import HomePage from './pages/HomePage';
-import ServicesPage from './pages/ServicesPage';
+
 import PricingPage from './pages/PricingPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout><HomePage /></Layout>} />
         <Route path="/about" element={<Layout><AboutPage/></Layout>} />
-        <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
+        {/* <Route path="/services" element={<Layout><ServicesPage /></Layout>} /> */}
         <Route path="/pricing" element={<Layout><PricingPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
         <Route path="/privacy-policy" element={<Layout><PrivacyPolicyPage /></Layout>} />
