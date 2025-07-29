@@ -1,5 +1,6 @@
 
 import { Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -48,35 +49,35 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
-            <ul className="space-y-3">
-              <li>
-                <button onClick={() => window.location.href = '/about'}className="text-slate-400 hover:text-amber-400 transition-colors">
-                  About Us
-                </button>
-              </li>
-              <li>
-                <button onClick={() => window.location.href = '/'} className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Services
-                </button>
-              </li>
-              <li>
-                <button onClick={() => window.location.href ='/pricing'} className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Pricing
-                </button>
-              </li>
-              <li>
-                <button onClick={() => window.location.href = '/contact'} className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Contact
-                </button>
-              </li>
-              <li>
-                <button onClick={() => window.location.href = '/privacy-policy'} className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Privacy Policy
-                </button>
-              </li>
-            </ul>
-          </div>
+  <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
+  <ul className="space-y-3">
+    <li>
+      <Link to="/about" className="text-slate-400 hover:text-amber-400 transition-colors">
+        About Us
+      </Link>
+    </li>
+    <li>
+      <Link to="/" className="text-slate-400 hover:text-amber-400 transition-colors">
+        Services
+      </Link>
+    </li>
+    <li>
+      <Link to="/pricing" className="text-slate-400 hover:text-amber-400 transition-colors">
+        Pricing
+      </Link>
+    </li>
+    <li>
+      <Link to="/contact" className="text-slate-400 hover:text-amber-400 transition-colors">
+        Contact
+      </Link>
+    </li>
+    <li>
+      <Link to="/privacy-policy" className="text-slate-400 hover:text-amber-400 transition-colors">
+        Privacy Policy
+      </Link>
+    </li>
+  </ul>
+</div>
 
           {/* Services */}
           <div>
