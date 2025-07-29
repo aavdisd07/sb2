@@ -17,18 +17,18 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-3 mb-6">
-              <img 
-                src="/Logo.jpg" 
-                alt="StraightBooks Logo" 
+            <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center space-x-3 mb-6">
+              <img
+                src="/Logo.jpg"
+                alt="StraightBooks Logo"
                 className="h-10 w-auto rounded-lg"
               />
               <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-orange-300 bg-clip-text text-transparent">
                 StraightBooks
               </span>
-            </div>
+            </Link>
             <p className="text-slate-400 mb-6 leading-relaxed">
-              UK-registered accountancy firm providing affordable, compliant accounting 
+              UK-registered accountancy firm providing affordable, compliant accounting
               services for small businesses and SMEs.
             </p>
             <div className="flex space-x-4">
@@ -49,35 +49,35 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-  <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
-  <ul className="space-y-3">
-    <li>
-      <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
-        About Us
-      </Link>
-    </li>
-    <li>
-      <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
-        Services
-      </Link>
-    </li>
-    <li>
-      <Link to="/pricing" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
-        Pricing
-      </Link>
-    </li>
-    <li>
-      <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
-        Contact
-      </Link>
-    </li>
-    <li>
-      <Link to="/privacy-policy" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
-        Privacy Policy
-      </Link>
-    </li>
-  </ul>
-</div>
+            <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/pricing" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Services */}
           <div>
@@ -123,7 +123,7 @@ const Footer = () => {
                 <button onClick={() => window.location.href = '/privacy-policy'} className="text-slate-500 hover:text-amber-400 transition-colors">Privacy Policy</button>
                 <button onClick={() => window.location.href = '/privacy-policy'} className="text-slate-500 hover:text-amber-400 transition-colors">Terms of Service</button>
               </div>
-              <button 
+              <button
                 onClick={scrollToTop}
                 className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-amber-600 transition-colors group border border-amber-500/20"
               >

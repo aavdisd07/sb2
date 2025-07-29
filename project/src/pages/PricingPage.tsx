@@ -2,12 +2,12 @@ import Pricing from '../components/Pricing';
 import Testimonials from "../components/Testimonials";
 const PricingPage = () => {
   return (
-  <>
+    <>
 
-  <Pricing />
-  <Testimonials/>
-   </>
-);
+      <Pricing />
+      <Testimonials />
+    </>
+  );
 };
 
 export default PricingPage;

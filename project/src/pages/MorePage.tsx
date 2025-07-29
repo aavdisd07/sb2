@@ -9,7 +9,7 @@ const MorePage = () => (
     <Pricing />
     <Contact />
     <FAQ />
-    <Testimonials />
+    
     <Footer />
   </>
 );

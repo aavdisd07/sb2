@@ -1,11 +1,13 @@
-import { Shield, FileText, Phone, Mail } from 'lucide-react';
+// Remove lucide-react imports due to missing module
+// Remove unused imports
+
+import { FileText, Shield, Mail, Phone } from "lucide-react";
 
 const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-slate-900">
       {/* Header */}
-     
 
       {/* Content */}
       <div className="py-16 px-6">
